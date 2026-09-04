@@ -117,3 +117,23 @@ items.forEach(li=>{
     document.getElementById("p-desc").textContent = li.dataset.desc;
   });
 });
+
+// Header scroll behavior
+window.addEventListener('scroll', function() {
+  const header = document.querySelector('.header');
+  const scrollPosition = window.scrollY;
+  
+  if (scrollPosition > 50) {
+    header.classList.add('scrolled');
+    header.classList.remove('hidden');
+  } else if (scrollPosition <= 50) {
+    header.classList.remove('scrolled');
+    header.classList.remove('hidden');
+  }
+});
+
+// Initialize header state on page load
+document.addEventListener('DOMContentLoaded', function() {
+  const header = document.querySelector('.header');
+  header.classList.remove('hidden');
+});

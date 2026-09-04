@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ecomriel | ecommerce store design & marketing agency</title>
+  <title>bobbecom | ecommerce store design & marketing agency</title>
   <link rel="shortcut icon" href="asset/favicon.png" type="image/x-icon">
   <!-- CSS STYLING -->
   <link rel="stylesheet" href="css/style.css">
@@ -18,22 +18,23 @@
 
 </head>
 
-<body>
+<body class="contact-page-body">
 
+  <div class="contact-wrapper">
   <!-- header start -->
   <header class="header">
     <div class="hd-cont">
       <div class="logo">
-        <a href="index.html"> <img src="asset/logo.svg" class="des_loo" alt="bobb logo">
-          <a href="index.html"> <img src="asset/logo.svg" class="mob_loo" alt="bobb logo">
+        <a href="index.html"> <img src="asset/bobb.svg" class="des_loo" alt="bobb logo">
+          <a href="index.html"> <img src="asset/bobb.svg" class="mob_loo" alt="bobb logo">
           </a>
       </div>
 
 
       <div class="nav-menu_des">
-        <a href="#services" onclick="toggleMenu(event)">Services</a>
+        <a href="index.html#services" onclick="toggleMenu(event)">Services</a>
         <a href="projects.html" onclick="toggleMenu(event)">projects</a>
-        <a href="#price" onclick="toggleMenu(event)">price</a>
+        <a href="index.html#price" onclick="toggleMenu(event)">price</a>
         <a href="contact.html" onclick="toggleMenu(event)">Contact</a>
       </div>
       <div class="rgt-hd">
@@ -52,17 +53,17 @@
 
         <div class="nav-togg">
           <div class="menu-icon" onclick="toggleMenu(event)">
-            <div class="line line1" style="background-color: black;"></div>
-            <div class="line line2" style="background-color: black;"></div>
+            <div class="line line1"></div>
+            <div class="line line2"></div>
 
           </div>
         </div>
       </div>
 
       <nav class="nav-menu">
-        <a href="#services" onclick="toggleMenu(event)">Services</a>
+        <a href="index.html#services" onclick="toggleMenu(event)">Services</a>
         <a href="projects.html" onclick="toggleMenu(event)">projects</a>
-        <a href="#price" onclick="toggleMenu(event)">price</a>
+        <a href="index.html#price" onclick="toggleMenu(event)">price</a>
         <a href="contact.html" onclick="toggleMenu(event)">Contact</a>
         <a href=""
           onclick="Calendly.initPopupWidget({url: 'https://calendly.com/team-ecomriel/30min?primary_color=0d0d0d'});return false;"
@@ -71,9 +72,13 @@
           <div class="nav-sic">
             <p>social handles</p>
             <div class="sic-ico">
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61577669127399&locale=en_GB"><i class="fa-brands fa-facebook-f"></i> </a>
+              <a href="https://www.instagram.com/bobbecom/"><i class="fa-brands fa-instagram"></i> </a>
+              <a href="https://www.tiktok.com/@bobbecomagency"><i class="fa-brands fa-tiktok"></i>
+              </a>
+              <a href="https://www.upwork.com/freelancers/~01e92329d64d89373d?mp_source=share"><i class="fa-brands fa-upwork"></i>
+              </a>
+              <a href="https://wa.me/447378366143"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
           </div>
 
@@ -101,144 +106,111 @@
 
 
   <!-- contact -->
-  <section id="contact" class="section contact ">
-    <div class="container">
-      <div class="sec-tit">
-        <div class="sec-mini-tit">
-          <p>Want to get started? </p>
-          <h1>contact</h1>
+  <section id="contact" class="section contact">
+    <div class="contact-page">
+
+      <section class="objectives-section">
+        <h1 class="objectives-heading">What are your objectives?</h1>
+
+        <div class="objectives">
+          <input type="radio" name="objective" id="obj-sales" class="objective-input">
+          <label for="obj-sales" class="objective-tile">
+            <span class="tile-label">Increase sales</span>
+          </label>
+
+          <input type="radio" name="objective" id="obj-roi" class="objective-input">
+          <label for="obj-roi" class="objective-tile">
+            <span class="tile-label">Get a higher ROI</span>
+          </label>
+
+          <input type="radio" name="objective" id="obj-cro" class="objective-input">
+          <label for="obj-cro" class="objective-tile">
+            <span class="tile-label">Increase CRO</span>
+          </label>
+
+          <input type="radio" name="objective" id="obj-all" class="objective-input">
+          <label for="obj-all" class="objective-tile">
+            <span class="tile-label">All of the above</span>
+          </label>
         </div>
-      </div>
+      </section>
 
-      <div class="cont-form">
+      <div class="contact-grid">
 
-
-        <div class="form-rgt">
-          <div class="hed-tit">
-            <h4>what are your objectives?</h4>
+        <aside class="contact-info">
+          <p class="info-eyebrow">Get in touch</p>
+          <a href="mailto:team@bobbecom.com" class="info-email">team@bobbecom.com</a>
+          <p class="info-note">Tell us where the business is today and where you want it to go. We reply within one business day.</p>
+          <div class="info-social">
+            <a href="https://www.instagram.com/bobbecom/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@bobbecomagency"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61577669127399&locale=en_GB"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.upwork.com/freelancers/~01e92329d64d89373d?mp_source=share"><i class="fa-brands fa-upwork"></i></a>
+            <a href="https://wa.me/447378366143"><i class="fa-brands fa-whatsapp"></i></a>
           </div>
-          <div class="titleb">
-            <input type="checkbox" name="option" id="option1">
-            <label for="option1">
-              <h5>increase sale</h5>
-            </label>
-          </div>
+        </aside>
 
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+          <input type="hidden" name="access_key" value="bf74b6c0-8895-4d05-9538-2746a0774db7">
+          <input type="hidden" name="redirect" value="thankyou.html">
+          <input type="hidden" name="subject" value="bobbecom you have a message">
 
-          <div class="titleb">
-            <input type="checkbox" name="option" id="option2">
-            <label for="option2">
-              <h5>Get A higher ROI</h5>
-            </label>
-          </div>
-
-
-
-          <div class="titleb">
-            <input type="checkbox" name="option" id="option3">
-            <label for="option3">
-              <h5>Increase (CRO)</h5>
-            </label>
-          </div>
-
-
-          <div class="titleb">
-            <input type="checkbox" name="option" id="option4">
-            <label for="option4 ">
-              <h5>All Of The Above</h5>
-            </label>
-          </div>
-
-          <div class="com-info">
-            <a href="mailto:team@bobbecom.com">
-              <h6>team@ecomriel.com</h6>
-            </a>
-            <div class="com-soc">
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <div class="field-row">
+            <div class="field">
+              <label for="full-name">Full Name</label>
+              <input type="text" id="full-name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
             </div>
           </div>
 
+          <div class="field">
+            <label for="site-url">Site URL</label>
+            <input type="url" id="site-url" name="link" placeholder="https://">
+          </div>
 
-        </div>
-
-
-
-
-
-        <div class="form-lft contact">
-          <form action="https://api.web3forms.com/submit" method="POST" class="cont-form">
-
-            <input type="hidden" name="access_key" value="bf74b6c0-8895-4d05-9538-2746a0774db7">
-            <input type="hidden" name="redirect" value="https://ecomriel.com/thankyou.html">
-            <input type="hidden" name="subject" value="Ecomriel you have a message">
-
-
-
-
-            <div class="input-wrap w-100">
-              <input type="text" name="name" autocomplete="off" class="cont-inp" placeholder="Full Name" required>
-              <i class="  icon fa-solid fa-address-card"></i>
-            </div>
-
-
-
-
-            <div class="input-wrap w-100">
-              <input type="text" name="email" autocomplete="off" class="cont-inp" placeholder="Email" required>
-              <i class="  icon fa-solid fa-envelope"></i>
-            </div>
-
-            <div class="input-wrap w-100">
-              <input type="link" name="link" autocomplete="off" placeholder=" Site URL" class="cont-inp">
-              <i class="icon fa-solid fa-link"></i>
-            </div>
-
-            <div class="input-wrap w-100">
-              <select name="where?" id="hear" class="cont-inp">
-                <option value=""> How did you hear about us?</option>
-                <option value="google">google</option>
-                <option value="shopify experts">shopify experts</option>
-                <option value="Friend/Refferal client">Friend/Refferal client</option>
-                <option value="other">other</option>
+          <div class="field-row">
+            <div class="field">
+              <label for="hear-about">How did you hear about us?</label>
+              <select id="hear-about" name="where?">
+                <option value="" disabled selected></option>
+                <option value="google">Google</option>
+                <option value="shopify experts">Shopify Experts</option>
+                <option value="referral">Referral</option>
+                <option value="social">Social Media</option>
+                <option value="other">Other</option>
               </select>
-              <i class="icon fa-solid fa-earth-americas"></i>
-
             </div>
-
-
-            <div class="input-wrap w-100">
-              <select name="bugt" id="budget" class="cont-inp">
-                <option value=" "> budget</option>
-                <option value="500 - 5k">500 - 5k</option>
-                <option value="10k - 20k">10k - 20k</option>
-                <option value="50k +">50k +</option>
+            <div class="field">
+              <label for="budget">Budget</label>
+              <select id="budget" name="bugt">
+                <option value="" disabled selected></option>
+                <option value="500-5k">$500 - $5k</option>
+                <option value="5-15k">$5k – $15k</option>
+                <option value="15-30k">$15k – $30k</option>
+                <option value="30k-plus">$30k+</option>
               </select>
-              <i class=" icon fa-solid fa-dollar-sign"></i>
-
             </div>
+          </div>
 
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="mesg" rows="4"></textarea>
+          </div>
 
-            <div class="input-wrap textarea w-100">
-              <textarea name="mesg" autocomplete="off" class="cont-inp" placeholder="Message" required></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
 
-              <i class="  icon fa-solid fa-inbox"></i>
-            </div>
-
-            <div class="cont-butt ">
-              <button type="submit" class="btn-prj ">Send Message</button>
-
-            </div>
-          </form>
-        </div>
       </div>
-
 
     </div>
   </section>
 
   <!--End Contact Section  -->
+
+  </div>
 
 
 
@@ -251,7 +223,7 @@
 
   <div class="hr"></div><!-- footer -->
   <div class="all-right">
-    <h4>© 2025 Ecomriel. All rights reserved.</h4>
+    <h4>&copy; 2026 bobbecom. All rights reserved.</h4>
   </div>
 </body>
 <!-- FOTTER -->
